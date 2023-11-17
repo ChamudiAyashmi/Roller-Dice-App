@@ -46,10 +46,6 @@ class _HomeState extends State<Home> {
       );
     }
   }
-  void clearTextFields(){
-    playerOneController.text="";
-    playerTwoController.text="";
-  }
 
   @override
   Widget build(BuildContext context) {
